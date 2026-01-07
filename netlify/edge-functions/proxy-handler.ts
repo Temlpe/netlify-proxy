@@ -86,7 +86,7 @@ export default async (request: Request, context: Context) => {
       
       // 核心限制：检查目标域名是否在白名单内
       if (!ALLOWED_DOMAINS.has(targetUrl.host)) {
-        return new Response(`禁止代理该域名：${targetUrl.host}，仅允许代理 ${Array.from(ALLOWED_DOMAINS).join(', ')}`, { 
+        return new Response(`禁止代理该域名：${targetUrl.host}`, { 
           status: 403,
           headers: {
             'Access-Control-Allow-Origin': '*',
