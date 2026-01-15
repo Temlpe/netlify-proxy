@@ -5,6 +5,7 @@ import type { Context } from "@netlify/edge-functions";
 const ALLOWED_DOMAINS = new Set([
   "store.steampowered.com",
   "api.steamcmd.net",
+  "cdn.tailwindcss.com",
   "steam.ddxnb.cn"
 ]);
 
@@ -12,6 +13,7 @@ const ALLOWED_DOMAINS = new Set([
 const PROXY_CONFIG = {
   "/steam": "https://store.steampowered.com",
   "/steamcmd": "https://api.steamcmd.net",
+  "/tailwindcss": "https://cdn.tailwindcss.com",
   "/steamd": "https://steam.ddxnb.cn"
 };
 
