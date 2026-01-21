@@ -7,7 +7,7 @@ const ALLOWED_DOMAINS = new Set([
   "api.steamcmd.net",
   "cdn.tailwindcss.com",
   "m.bsddji.cn",
-  "mediafire.com",
+  "download2342.mediafire.com",
   "steam.ddxnb.cn"
 ]);
 
