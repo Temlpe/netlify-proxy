@@ -7,7 +7,7 @@ const ALLOWED_DOMAINS = new Set([
   "api.steamcmd.net",
   "cdn.tailwindcss.com",
   "m.bsddji.cn",
-  "download2342.mediafire.com",
+  "m.ssone.io",
   "steam.ddxnb.cn"
 ]);
 
@@ -17,7 +17,7 @@ const PROXY_CONFIG = {
   "/steamcmd": "https://api.steamcmd.net",
   "/tailwindcss": "https://cdn.tailwindcss.com",
   "/mediafire": "https://mediafire.com",
-  "/vpn": "https://m.bsddji.cn/ssone/0f6daf12a8d5af2552055bb8a01dd9e8",
+  "/vpn": "https://m.ssone.io/ssone/0f6daf12a8d5af2552055bb8a01dd9e8",
   "/steamd": "https://steam.ddxnb.cn"
 };
 
